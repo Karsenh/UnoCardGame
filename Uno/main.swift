@@ -8,5 +8,12 @@
 
 import Foundation
 
-print("Hello, World!")
+// 1. Create an array of Card objects (Deck)
+// 2. Create 2 hands (players / computer)
 
+var currGame = Game()
+var gameDeck = Deck()
+var player1 = Player()
+var player2 = Player()
+
+currGame.playGame(Player1: player1, Player2: player2)

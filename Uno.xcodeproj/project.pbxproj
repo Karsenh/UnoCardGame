@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		054A15E3251738F90085CC3D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A15E2251738F90085CC3D /* main.swift */; };
+		058F5E2E25185B6600966572 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F5E2D25185B6600966572 /* Card.swift */; };
+		058F5E53251B02D300966572 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F5E52251B02D300966572 /* Deck.swift */; };
+		058F5E57251B0B9400966572 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F5E56251B0B9400966572 /* Game.swift */; };
+		058F5E5C251B0C9A00966572 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F5E5B251B0C9A00966572 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		054A15DF251738F90085CC3D /* Uno */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Uno; sourceTree = BUILT_PRODUCTS_DIR; };
 		054A15E2251738F90085CC3D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		058F5E2D25185B6600966572 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		058F5E52251B02D300966572 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		058F5E56251B0B9400966572 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		058F5E5B251B0C9A00966572 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				054A15E2251738F90085CC3D /* main.swift */,
+				058F5E56251B0B9400966572 /* Game.swift */,
+				058F5E5B251B0C9A00966572 /* Player.swift */,
+				058F5E52251B02D300966572 /* Deck.swift */,
+				058F5E2D25185B6600966572 /* Card.swift */,
 			);
 			path = Uno;
 			sourceTree = "<group>";
@@ -89,7 +101,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1170;
-				LastUpgradeCheck = 1170;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Karsen Hansen";
 				TargetAttributes = {
 					054A15DE251738F90085CC3D = {
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				058F5E53251B02D300966572 /* Deck.swift in Sources */,
 				054A15E3251738F90085CC3D /* main.swift in Sources */,
+				058F5E2E25185B6600966572 /* Card.swift in Sources */,
+				058F5E5C251B0C9A00966572 /* Player.swift in Sources */,
+				058F5E57251B0B9400966572 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +169,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -213,6 +230,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -243,6 +261,7 @@
 		054A15E7251738F90085CC3D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DRQEKYHAUF;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -254,6 +273,7 @@
 		054A15E8251738F90085CC3D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DRQEKYHAUF;
 				ENABLE_HARDENED_RUNTIME = YES;
